@@ -15,34 +15,89 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="60dp" />
+            android:layout_height="45dp" />
 
         <TextView
             android:id="@+id/result"
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:text="こんにちは"
-            android:textSize="45dp" />
+            android:textSize="45dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="入力内容"
+            android:gravity="center"/>
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/edit"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:ems="10"
             android:inputType="text"
-            android:text="入力" />
+            android:text="入力"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:textSize="20dp"/>
 
         <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+            android:id="@+id/btn"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="30dp"
+            android:text="送信"
+            android:layout_gravity="center"/>
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/rs0"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:layout_height="45dp"
+            android:text="TextView"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/rs1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="TextView"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/rs2"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="TextView"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/rs3"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="TextView"
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/rs4"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="TextView"
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="リセット"
+            android:layout_gravity="center"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
