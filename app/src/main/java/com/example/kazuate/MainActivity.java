@@ -1,6 +1,10 @@
 package com.example.kazuate;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,16 +25,22 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        findViewById(R.id.result);
-        findViewById(R.id.btn);
-        findViewById(R.id.edit);
-        findViewById(R.id.rs0);
-        findViewById(R.id.rs1);
-        findViewById(R.id.rs2);
-        findViewById(R.id.rs3);
-        findViewById(R.id.rs4);
+        TextView result = findViewById(R.id.result);
+        TextView tv = findViewById(R.id.tv);
+        Button sent = findViewById(R.id.sent);
+        EditText edit = findViewById(R.id.edit);
+        TextView rs0 =findViewById(R.id.rs0);
+        TextView rs1 = findViewById(R.id.rs1);
+        TextView rs2 = findViewById(R.id.rs2);
+        TextView rs3 = findViewById(R.id.rs3);
+        TextView rs4 = findViewById(R.id.rs4);
+        Button reset = findViewById(R.id.reset);
+
+
 
 
 
     }
+
+
 }
