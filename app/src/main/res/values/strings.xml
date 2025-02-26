@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">kazuate</string>
+    <string name="ResultStart">数当てゲームを始めましょう！</string>
+    <string name="TvStart">0~20の数字を入力してください！</string>
+    <string name="big">大きいです。</string>
+    <string name="small">小さいです。</string>
+    <string name="correct">正解です！おめでとう！</string>
+    <string name="incorrect">カウントオーバー。正解は %d でした。</string>
+    <string name="reset">リセットではじめから。</string>
+    <string name="editText">数字を入力してください。</string>
 </resources>
