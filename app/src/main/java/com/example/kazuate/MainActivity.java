@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
         //数当てゲームを始めるかどうかの問 →　レイアウトで初期設定したため不要
         //初期ランダムの数字を作成
-        int randomNum = random.nextInt(21);
+        int randomNum = random.nextInt(31);
 
         //iの初期設定は不要。（最初の値は0の為）
 
@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
         reset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int randomNum = random.nextInt(21);
+                int randomNum = random.nextInt(31);
                 result.setText(R.string.ResultStart);
                 tv.setText(R.string.TvStart);
                 sent.setEnabled(true);
