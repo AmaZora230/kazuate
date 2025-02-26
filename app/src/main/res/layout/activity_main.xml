@@ -10,11 +10,12 @@
 
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/img"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/background"
-        android:scaleType="centerCrop"/>
+        app:srcCompat="@drawable/back"
+        android:scaleType="centerCrop"
+        tools:ignore="MissingConstraints" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,10 +31,11 @@
         <TextView
             android:id="@+id/result"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="150dp"
             android:text="@string/ResultStart"
             android:textSize="23dp"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:textColor="#65318e" />
 
         <TextView
             android:id="@+id/tv"
@@ -41,7 +43,8 @@
             android:layout_height="50dp"
             android:text="@string/TvStart"
             android:textSize="17dp"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:textColor="#65318e"/>
 
         <EditText
             android:id="@+id/edit"
@@ -55,7 +58,9 @@
             android:hint="@string/editText"
             android:inputType="number"
             android:text=""
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:background="@color/cardview_light_background"
+            android:textColor="#745399"/>
 
         <Button
             android:id="@+id/sent"
